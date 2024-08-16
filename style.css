@@ -45,11 +45,11 @@ body {
     background-color: #006811; /* Muda a cor de fundo do botão de envio para azul (#0056b3) quando o mouse está sobre ele */
 }
 
-.canto {
+.imgcanto {
     position: absolute; /* Posiciona o elemento em relação ao seu contêiner mais próximo com posição relativa */
-    top: 5px; /* Posiciona o elemento 5px a partir do topo do contêiner */
+    top: -70px; /* Posiciona o elemento 5px a partir do topo do contêiner */
     left: 10px; /* Posiciona o elemento 10px a partir da borda esquerda do contêiner */
-    width: 150px; /* Define a largura do elemento como 150px */
+    width: 250px; /* Define a largura do elemento como 150px */
     height: auto; /* Ajusta automaticamente a altura para manter a proporção da imagem */
 }
 
