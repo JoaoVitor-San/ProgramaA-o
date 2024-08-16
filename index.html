@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Declara o tipo de documento como HTML5 e define o idioma como portugues do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define que a largura da página deve ser igual à largura da viewport, para tornar o site responsivo -->
+    <meta name="description" content="Programação, programa ação, programaAção, programação, Mini curso, Atividades de html, html,  css, javascript, Atividades em html, Atividades em css, Atividades em javascript"> <!-- Fornece uma descrição do conteúdo da página para os motores de busca -->
+    <title>Home</title> <!-- Define o título da página, que aparece na aba do navegador -->
+
+    <link rel="stylesheet" href="style.css"> <!-- Vincula um arquivo CSS externo chamado "style.css" para estilizar a página -->
+    <style>
+        body {
+            background-color: #0f1120; /* Define a cor de fundo do corpo da pagina como #0f1120, um tom escuro */
+        }
+    </style> <!-- Estilo interno: define a cor de fundo do body diretamente no cabeçalho -->
+    
+</head>
+
+<body>
+    <img src="Programa ação (1).png" alt="Logo da empresa" class="meio"> <!-- Exibe uma imagem centralizada na tela, representando o logo da empresa, com uma classe para estilização -->
+
+    <img src="Programa ação.png" alt="Logo com nome" class="canto"> <!-- Exibe uma imagem no canto superior esquerdo, também representando o logo, mas com uma classe diferente para posicionamento especifico -->
+
+    <div class="login-box">
+
+        <h2><strong>Login</strong></h2> <!-- Título dentro da caixa de login, em negrito para destacar -->
+
+        <form action="pagina-inicial.html" method="post"> <!-- Inicia um formulário que envia os dados via método POST para a página "pagina-inicial.html" -->
+
+            <input type="email" name="email" placeholder="E-mail" required> <!-- Campo de entrada para o e-mail, com validação obrigatória -->
+
+            <input type="password" name="password" placeholder="Senha" required> <!-- Campo de entrada para a senha, também com validação obrigatória -->
+
+            <input type="submit" value="Acessar"> <!-- Botão de envio que acessa a página inicial após a submissão do formulário -->
+            
+        </form>
+    </div>
+</body>
+</html>
