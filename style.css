@@ -10,9 +10,8 @@ body {
 
 .login-box {
     background-color: #e7e7e7; /* Define a cor de fundo da caixa de login como um tom claro (#e7e7e7) */
-    padding: 20px; /* Adiciona 20px de espaçamento interno em todos os lados da caixa de login */
+    padding: 25px; /* Adiciona 20px de espaçamento interno em todos os lados da caixa de login */
     border-radius: 8px; /* Define bordas arredondadas com um raio de 8px */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao redor da caixa de login */
     width: 300px; /* Define a largura da caixa de login como 300px */
 }
 
@@ -43,7 +42,7 @@ body {
 }
 
 .login-box input[type="submit"]:hover {
-    background-color: #0056b3; /* Muda a cor de fundo do botão de envio para azul (#0056b3) quando o mouse está sobre ele */
+    background-color: #006811; /* Muda a cor de fundo do botão de envio para azul (#0056b3) quando o mouse está sobre ele */
 }
 
 .canto {
