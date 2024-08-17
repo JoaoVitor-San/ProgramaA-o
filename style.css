@@ -34,7 +34,7 @@ body {
 .login-box input[type="submit"] {
     width: 100%; /* Define a largura do botão de envio para ocupar 100% da largura da caixa de login */
     padding: 10px; /* Adiciona 10px de espaçamento interno ao botão de envio */
-    background-color: #00ff19; /* Define a cor de fundo do botão de envio como verde (#00ff19) */
+    background-color: #00ff1a; /* Define a cor de fundo do botão de envio como verde (#00ff19) */
     color: #0f1120; /* Define a cor do texto do botão de envio como a mesma do fundo do body (#0f1120) */
     border: none; /* Remove qualquer borda padrão do botão de envio */
     border-radius: 6px; /* Define bordas arredondadas com um raio de 6px para o botão de envio */
@@ -47,9 +47,9 @@ body {
 
 .imgcanto {
     position: absolute; /* Posiciona o elemento em relação ao seu contêiner mais próximo com posição relativa */
-    top: -70px; /* Posiciona o elemento 5px a partir do topo do contêiner */
+    top: -70px; /* Posiciona o elemento -70px a partir do topo do contêiner */
     left: 10px; /* Posiciona o elemento 10px a partir da borda esquerda do contêiner */
-    width: 250px; /* Define a largura do elemento como 150px */
+    width: 250px; /* Define a largura do elemento como 250px */
     height: auto; /* Ajusta automaticamente a altura para manter a proporção da imagem */
 }
 
@@ -57,4 +57,20 @@ body {
     position: relative; /* Posiciona o elemento em relação à sua posição normal no fluxo do documento */
     width: 400px; /* Define a largura do elemento como 400px */
     left: -100px; /* Move o elemento 100px para a esquerda em relação à sua posição normal */
+}
+
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #0f1120;
+    background-color: #00ff1a;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;;
+}
+
+.texto{
+    color: #00ff1a;
+    font-size: medium;
 }
